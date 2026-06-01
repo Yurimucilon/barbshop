@@ -9,5 +9,11 @@ body{
     text-align: center;
 }
 img{
-    width: 800px;
+    width: 850px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: brown;
 }
