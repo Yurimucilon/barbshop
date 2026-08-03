@@ -3,11 +3,12 @@ header{
 }
 nav li{
     display: inline;
-    margin: 0 0 0 15px
+    margin: 0 0 0 15px;
 }
 nav a {
     text-decoration: none;
+    text-transform: uppercase; 
     color: blue;
     font-size: 22px;
-    font-weight
+    font-weight: bold;
 }
