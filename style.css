@@ -1,19 +1,80 @@
-h1{
+header{
+    background-color: blueviolet; 
 
-    color: rgb(253, 253, 253);
-    background-color:rgb(163, 159, 159);
+    height: 140px;
+    padding: 20px 0;
 }
-body{
-
-    background-image: url("https://media1.tenor.com/m/bqORLwABw8oAAAAd/gato-beijando.gif");
-    text-align: center;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
-img{
-    width: 850px;
-}
-a{
+nav a {
     text-decoration: none;
+    text-transform: uppercase; 
+    color: rgb(171, 250, 0);
+    font-size: 22px;
+    font-weight: bold;
 }
-footer{
-    background-color: brown;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+h1 img{
+    width: 140px;
+}
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li{
+    display: inline-block;
+    text-align:center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao {
+    font-size: 18px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    padding: 40px 0;
+}
+footer img{
+   width: 590px;
+   margin-bottom: 40px;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+    text-align: left;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
