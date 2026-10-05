@@ -1,5 +1,5 @@
 header{
-    background-color: blueviolet; 
+    background-color: rgb(120, 123, 31); 
 
     height: 140px;
     padding: 20px 0;
@@ -11,7 +11,7 @@ nav li{
 nav a {
     text-decoration: none;
     text-transform: uppercase; 
-    color: rgb(171, 250, 0);
+    color: rgb(228, 230, 223);
     font-size: 22px;
     font-weight: bold;
 }
@@ -52,11 +52,11 @@ h1 img{
 }
 footer {
     text-align: center;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(120, 123, 31);
     padding: 40px 0;
 }
 footer img{
-   width: 590px;
+   width: 241px;
    margin-bottom: 40px;
 }
 main {
@@ -66,8 +66,14 @@ main {
 form{
     margin: 40px 0;
     text-align: left;
+
 }
 form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form label, form p{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -77,4 +83,31 @@ form input{
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+.enviar{
+    width: 40%;
+    padding: 25px;
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.enviar:hover{
+    background-color: rgb(221, 240, 12);
+    transition: scale(1.2);
+    transition: rotate (360deg);
+     animation: repetir 0.1s linear infinite;
+}
+@keyframes repetir {
+    0%{
+        transform: scale(1.0);
+
+    }  
+    100%{
+        transform: scale(2.0);
+    }
 }
