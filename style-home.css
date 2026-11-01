@@ -1,18 +1,47 @@
-h1{
-
-    color: rgb(253, 253, 253);
-    background-color:rgb(163, 159, 159);
+header h1 img {
+    width: 80px;
 }
-body{
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner-principal {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner-principal img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.banner-principal p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: rgb(50, 50, 50);
+}
+
+.conteudo-principal {
+    padding: 20px 0 40px 0;
     text-align: center;
 }
-img{
-    width: 850px;
+
+.conteudo-principal h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0 15px 0;
+    text-transform: uppercase;
 }
-a{
-    text-decoration: none;
-}
-footer{
-    background-color: brown;
+
+.mapa, .video {
+    margin-bottom: 30px;
+    border: 2px solid rgb(120, 123, 31);
+    border-radius: 8px;
+    overflow: hidden;
 }
